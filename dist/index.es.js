@@ -1,5 +1,13 @@
 import { useState, useEffect, createElement } from 'react';
 
+/**
+ * Check out {@link https://developer.flutterwave.com/docs/flutterwave-standard} for more information.
+ */
+
+var types = /*#__PURE__*/Object.freeze({
+  __proto__: null
+});
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -216,4 +224,4 @@ function closePaymentModal() {
     });
 }
 
-export { FlutterWaveButton, closePaymentModal, useFlutterwave };
+export { FlutterWaveButton, types as FlutterWaveTypes, closePaymentModal, useFlutterwave };
